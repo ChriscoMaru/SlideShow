@@ -38,6 +38,15 @@ var slideshow = {
     },
     getCurrentPhoto: function(){
         console.log(this.photoList[this.currentPhotoIndex]);
+    },
+    playInterval: null,
+    play: function(){
+        var self = this;
+        this.playInterval = setInterval(function() {self.nextPhoto()}, 2000);
+        this.nextPhoto();
+    },
+    pause: function(){
+        clearInterval(this.playInterval);
     }
    }
    slideshow.nextPhoto();
@@ -49,3 +58,7 @@ var slideshow = {
    slideshow.nextPhoto();
    slideshow.nextPhoto();
    slideshow.getCurrentPhoto();
+
+   playInterval = setInterval(nextPhoto,2000)
+
+   clearInterval(playInterval)
