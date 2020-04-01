@@ -49,16 +49,18 @@ var slideshow = {
         clearInterval(this.playInterval);
     }
    }
-   slideshow.nextPhoto();
-   slideshow.nextPhoto();
-   slideshow.nextPhoto();
-   slideshow.nextPhoto();
-   slideshow.nextPhoto();
-   slideshow.nextPhoto();
-   slideshow.nextPhoto();
-   slideshow.nextPhoto();
-   slideshow.getCurrentPhoto();
+//    slideshow.nextPhoto();
+//    slideshow.nextPhoto();
+//    slideshow.nextPhoto();
+//    slideshow.nextPhoto();
+//    slideshow.nextPhoto();
+//    slideshow.nextPhoto();
+//    slideshow.nextPhoto();
+//    slideshow.nextPhoto();
+//    slideshow.getCurrentPhoto();
+// previous tasks
 
-   playInterval = setInterval(nextPhoto,2000)
+//    playInterval = setInterval(nextPhoto,2000)
 
-   clearInterval(playInterval)
+//    clearInterval(playInterval)
+// experiments
